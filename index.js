@@ -22,5 +22,14 @@ class Deciduous  extends Tree{
 }
 
 class Evergreen extends Tree {
+  constructor(name){
+    super(species);
+    this.name =name;
+  }
   
+  static definition(){
+    return `${super.definition()} `
+  }
 }
+
+let evergreen = new Evergreen()
