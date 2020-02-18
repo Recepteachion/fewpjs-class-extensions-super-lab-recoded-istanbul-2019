@@ -5,6 +5,6 @@ class Tree{
   }
   
   static definition(){
-    return ``
+    return `A ${this.species} is a perennial plant with an elongated stem, or trunk, supporting branches and leaves.`
   }
 }
